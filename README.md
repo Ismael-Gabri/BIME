@@ -10,11 +10,6 @@
 </h1>
 
 <p align="center">
-  <a href="#screens">Telas</a> •
-  <a href="#how">Como Funciona</a> •
-</p>
-
-<p align="center">
     <b>
     Ferramenta desenvolvida para extrair e disponibilizar a estrutura completa de relatórios do Power BI, expondo informações como medidas, relacionamentos, tabelas e colunas. O objetivo é transformar a estrutura do relatório em um formato legível por agentes de IA, permitindo análises mais precisas, contextualizadas e abrangentes de todo o modelo de dados.
     </b>
