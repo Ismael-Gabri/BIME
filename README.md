@@ -1,4 +1,4 @@
-<h1 align="center" style="font-weight: bold;">BIME<img width="100" height="100" alt="Image" src="https://github.com/user-attachments/assets/3d43a934-b565-46c8-8e1a-7401da9d7f50" /></h1>
+<h1 align="center" style="font-weight: bold;">BIME<img width="30" height="30" alt="Image" src="https://github.com/user-attachments/assets/3d43a934-b565-46c8-8e1a-7401da9d7f50" /></h1>
 
 <p align="center">
   <b>BI Model Extractor</b>
