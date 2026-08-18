@@ -40,7 +40,7 @@ A aplicação identifica automaticamente uma instância do Power BI Desktop aber
 
 <h3>⚙️ Configurações</h3>
 
-Área destinada às configurações da aplicação e dos parâmetros utilizados durante o processo de extração.
+Na aba de configurações é possível selecionar o caminho que o programa irá salvar o arquivo extraído do Power BI.
 
 <p align="center">
   <img width="722" height="559" alt="Image" src="https://github.com/user-attachments/assets/88e13d19-2591-4cd1-bf49-f6af5a3614a3" />
@@ -48,9 +48,9 @@ A aplicação identifica automaticamente uma instância do Power BI Desktop aber
 
 ---
 
-<h2 id="how">🔄 Como Funciona</h2>
+<h2 id="how">🔄 Como Funciona?</h2>
 
-O BIME foi desenvolvido para transformar um arquivo Power BI em uma estrutura que possa ser facilmente interpretada e analisada por ferramentas de Inteligência Artificial.
+O BIME foi desenvolvido para transformar um arquivo Power BI em uma estrutura que possa ser facilmente interpretada e analisada por ferramentas de Inteligência Artificial, expondo todos os relacionamentos, tabelas, colunas e medidas do relatório.
 
 O processo funciona da seguinte maneira:
 
