@@ -93,30 +93,6 @@ O modelo é disponibilizado utilizando **TMDL — Tabular Model Definition Langu
 * Configurações do modelo
 * Estruturas relacionadas ao Power Query/M, quando disponíveis na extração
 
-### 5. 🗜️ Compactação
-
-Após a extração, todos os arquivos gerados são organizados e compactados automaticamente em um arquivo `.zip`.
-
-### 6. 🤖 Análise por Inteligência Artificial
-
-O ZIP gerado pode então ser enviado para uma Inteligência Artificial.
-
-Dessa forma, a IA consegue analisar a estrutura do modelo de maneira muito mais completa, podendo identificar:
-
-* Problemas de modelagem
-* Relacionamentos incorretos
-* Medidas duplicadas ou inconsistentes
-* Problemas em fórmulas DAX
-* Colunas desnecessárias
-* Tabelas mal estruturadas
-* Possíveis problemas de performance
-* Inconsistências entre medidas e modelo
-* Problemas de cardinalidade
-* Dependências entre tabelas e medidas
-* Oportunidades de melhoria na arquitetura do BI
-
----
-
 <h2>👨‍💻 Desenvolvedor</h2>
 
 <p align="center">
