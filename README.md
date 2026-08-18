@@ -42,7 +42,7 @@ Tela principal do BIME, responsável por iniciar o processo de extração do mod
 A aplicação identifica automaticamente uma instância do Power BI Desktop aberta e utiliza o modelo carregado no relatório para realizar a extração.
 
 <p align="center">
-  <img src="docs/screenshots/extracao.png" alt="BIME - Extração do modelo" width="700">
+  <img width="722" height="559" alt="Image" src="https://github.com/user-attachments/assets/88e13d19-2591-4cd1-bf49-f6af5a3614a3" />
 </p>
 
 ---
