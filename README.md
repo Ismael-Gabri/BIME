@@ -25,11 +25,8 @@
 
 * C#
 * .NET
-* Windows Desktop
-* Power BI Desktop
 * pbi-tools
 * TMDL (Tabular Model Definition Language)
-* ZIP
 
 ---
 
