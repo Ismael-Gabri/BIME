@@ -1,4 +1,4 @@
-<h1 align="center" style="font-weight: bold;">BIME 🔎</h1>
+<h1 align="center" style="font-weight: bold;">BIME</h1>
 
 <p align="center">
   <b>BI Model Extractor</b>
