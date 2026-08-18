@@ -5,7 +5,7 @@
     height="40" 
     alt="BIME Icon" 
     src="https://github.com/user-attachments/assets/3d43a934-b565-46c8-8e1a-7401da9d7f50"
-    style="vertical-align: middle; margin-left: 12px;"
+    style="vertical-align: middle; margin-left: 22px;"
   />
 </h1>
 
