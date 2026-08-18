@@ -88,7 +88,7 @@ O modelo é disponibilizado utilizando **TMDL — Tabular Model Definition Langu
 
 O resultado é um arquivo ZIP gerado no caminho selecionado, contendo toda a estrutura e o contexto do relatório Power BI, incluindo tabelas, colunas, medidas e relacionamentos.
 
-Esse arquivo pode ser diretamente encaminhado a uma IA para análise, permitindo que o agente tenha uma visão mais completa do modelo de dados e compreenda melhor a estrutura do relatório. Dessa forma, é possível obter análises mais precisas, respostas mais contextualizadas e uma identificação mais eficiente de possíveis problemas no Power BI — algo que não é possível obter com a mesma profundidade a partir de um arquivo .PBIX convencional.
+Esse arquivo pode ser diretamente encaminhado a uma IA para análise, permitindo que o agente tenha uma visão mais completa do modelo de dados e compreenda melhor a estrutura do relatório. Dessa forma, é possível obter análises mais precisas, respostas mais contextualizadas e uma identificação mais eficiente de possíveis problemas no Power BI, algo que não é possível obter com a mesma profundidade a partir de um arquivo .PBIX convencional.
 
 
 <h2>👨‍💻 Desenvolvedor</h2>
