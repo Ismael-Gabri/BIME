@@ -16,9 +16,7 @@
 
 <p align="center">
     <b>
-    Ferramenta desenvolvida para extrair a estrutura interna de modelos Power BI,
-    convertendo arquivos PBIX em uma representação textual baseada em TMDL,
-    compactando todo o conteúdo em ZIP e preparando o modelo para análise por Inteligência Artificial.
+    Ferramenta desenvolvida para extrair e disponibilizar a estrutura completa de relatórios do Power BI, expondo informações como medidas, relacionamentos, tabelas e colunas. O objetivo é transformar a estrutura do relatório em um formato legível por agentes de IA, permitindo análises mais precisas, contextualizadas e abrangentes de todo o modelo de dados.
     </b>
 </p>
 
