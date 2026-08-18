@@ -1,0 +1,5 @@
+C:\Nível 3 TI\Desenvolvimento\BI analyzer\PowerBiModelExtractor\publish\distributable-win-x64\tools\pbi-tools\pbi-tools.exe
+C:\Nível 3 TI\Desenvolvimento\BI analyzer\PowerBiModelExtractor\publish\distributable-win-x64\tools\pbi-tools\pbi-tools.exe.config
+C:\Nível 3 TI\Desenvolvimento\BI analyzer\PowerBiModelExtractor\publish\distributable-win-x64\tools\pbi-tools\THIRD-PARTY-NOTICES.txt
+C:\Nível 3 TI\Desenvolvimento\BI analyzer\PowerBiModelExtractor\publish\distributable-win-x64\BIME.pdb
+C:\Nível 3 TI\Desenvolvimento\BI analyzer\PowerBiModelExtractor\publish\distributable-win-x64\BIME.exe

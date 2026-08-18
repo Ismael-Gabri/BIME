@@ -1,0 +1,114 @@
+<Window x:Class="BIME.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="BIME"
+        Width="720"
+        Height="555"
+        MinWidth="620"
+        MinHeight="555"
+        WindowStartupLocation="CenterScreen"
+        Background="#101417"
+        Foreground="#F1F5F9">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Padding" Value="18,10" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="Cursor" Value="Hand" />
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Padding" Value="10,8" />
+            <Setter Property="Background" Value="#1D252B" />
+            <Setter Property="Foreground" Value="#F1F5F9" />
+            <Setter Property="BorderBrush" Value="#3B4852" />
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="30">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Margin="0,0,0,24">
+            <TextBlock Text="BIME" FontSize="32" FontWeight="Bold" Foreground="#F0C83A" />
+            <TextBlock Text="BI Model Extractor" FontSize="15" Foreground="#AAB7C2" Margin="0,3,0,0" />
+        </StackPanel>
+
+        <TabControl Grid.Row="1" Background="#161D22" BorderBrush="#2C3942" Padding="8">
+            <TabItem Header="Extração" Padding="18,9">
+                <Grid Margin="22">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <StackPanel>
+                        <TextBlock Text="Extrair modelo do Power BI" FontSize="20" FontWeight="SemiBold" Foreground="White" />
+                        <TextBlock Text="Abra o relatório no Power BI Desktop e clique no botão abaixo." Foreground="#AAB7C2" Margin="0,8,0,0" />
+                    </StackPanel>
+
+                    <Button x:Name="ExtractButton"
+                            Grid.Row="1"
+                            HorizontalAlignment="Left"
+                            Margin="0,24,0,0"
+                            Background="#F0C83A"
+                            Foreground="#172027"
+                            BorderBrush="#F0C83A"
+                            Click="ExtractButton_Click"
+                            Content="Executar extração" />
+
+                    <Border Grid.Row="2" Margin="0,28,0,0" Padding="16" Background="#1D252B" CornerRadius="6" VerticalAlignment="Top">
+                        <StackPanel>
+                            <TextBlock Text="STATUS" FontSize="11" FontWeight="Bold" Foreground="#8C9AA5" />
+                            <TextBlock x:Name="StatusTextBlock"
+                                       Text="Pronto para iniciar."
+                                       TextWrapping="Wrap"
+                                       Margin="0,8,0,0"
+                                       Foreground="#F1F5F9" />
+                        </StackPanel>
+                    </Border>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Configurações" Padding="18,9">
+                <Grid Margin="22">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <StackPanel>
+                        <TextBlock Text="Pasta de Saída" FontSize="20" FontWeight="SemiBold" Foreground="White" />
+                        <TextBlock Text="Os arquivos extraídos e o arquivo ZIP serão salvos neste local." Foreground="#AAB7C2" Margin="0,8,0,0" />
+                    </StackPanel>
+
+                    <Grid Grid.Row="1" Margin="0,24,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <TextBox x:Name="OutputDirectoryTextBox" VerticalContentAlignment="Center" />
+                        <Button Grid.Column="1" Margin="10,0,0,0" Click="BrowseButton_Click" Content="Procurar" />
+                    </Grid>
+
+                    <Button Grid.Row="2"
+                            HorizontalAlignment="Left"
+                            Margin="0,18,0,0"
+                            Background="#2B8A57"
+                            Foreground="White"
+                            BorderBrush="#2B8A57"
+                            Click="SaveSettingsButton_Click"
+                            Content="Salvar configurações" />
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+        <Grid Grid.Row="2" Margin="2,18,0,0">
+            <TextBlock Text="O BIME identifica automaticamente o Power BI Desktop aberto." Foreground="#8C9AA5" FontSize="12" />
+            <TextBlock HorizontalAlignment="Right" Text="Desenvolvido por Ismael Gabri" Foreground="#8C9AA5" FontSize="12" />
+        </Grid>
+    </Grid>
+</Window>

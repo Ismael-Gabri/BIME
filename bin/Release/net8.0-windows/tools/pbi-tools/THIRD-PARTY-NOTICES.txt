@@ -1,0 +1,10 @@
+pbi-tools Desktop CLI 1.2.0
+Copyright (C) Mathias Thierbach and contributors
+
+This package includes the unmodified pbi-tools executable as a separate
+command-line program. pbi-tools is free and open-source software licensed
+under the GNU Affero General Public License, version 3 or later (AGPL-3.0-or-later).
+
+License: https://github.com/pbi-tools/pbi-tools/blob/main/LICENSE
+Source code: https://github.com/pbi-tools/pbi-tools
+Release 1.2.0: https://github.com/pbi-tools/pbi-tools/releases/tag/1.2.0

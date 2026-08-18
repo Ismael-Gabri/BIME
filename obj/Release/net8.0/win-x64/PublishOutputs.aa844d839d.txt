@@ -1,0 +1,4 @@
+C:\Nível 3 TI\Desenvolvimento\BI analyzer\PowerBiModelExtractor\publish\win-x64\tools\pbi-tools\pbi-tools.exe
+C:\Nível 3 TI\Desenvolvimento\BI analyzer\PowerBiModelExtractor\publish\win-x64\tools\pbi-tools\pbi-tools.exe.config
+C:\Nível 3 TI\Desenvolvimento\BI analyzer\PowerBiModelExtractor\publish\win-x64\PowerBiModelExtractor.pdb
+C:\Nível 3 TI\Desenvolvimento\BI analyzer\PowerBiModelExtractor\publish\win-x64\PowerBiModelExtractor.exe
