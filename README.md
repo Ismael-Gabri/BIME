@@ -10,10 +10,6 @@
 </h1>
 
 <p align="center">
-  <b>BI Model Extractor</b>
-</p>
-
-<p align="center">
   <a href="#tech">Tecnologias</a> •
   <a href="#screens">Telas</a> •
   <a href="#how">Como Funciona</a> •
