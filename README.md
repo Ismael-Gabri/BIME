@@ -10,7 +10,6 @@
 </h1>
 
 <p align="center">
-  <a href="#tech">Tecnologias</a> •
   <a href="#screens">Telas</a> •
   <a href="#how">Como Funciona</a> •
   <a href="#about">Sobre o Projeto</a>
