@@ -30,7 +30,7 @@
 
 <h3>📊 Extração do Modelo</h3>
 
-A aplicação identifica automaticamente uma instância do Power BI Desktop aberta e utiliza o modelo carregado no relatório para realizar a extração em um arquivo de linguagem legível ( TMDL ) para IA's.
+A aplicação identifica automaticamente uma instância do Power BI Desktop aberta e utiliza o modelo carregado no relatório para realizar a extração, gerando um arquivo de linguagem legível ( TMDL ) para IA's de todo o modelo de dados.
 
 <p align="center">
   <img width="715" height="555" alt="Image" src="https://github.com/user-attachments/assets/d48ed484-4e74-4a0b-b406-4879e7cc81d6" />
