@@ -1,8 +1,8 @@
 <h1 align="center" style="font-weight: bold;">
   BIME
   <img 
-    width="35" 
-    height="35" 
+    width="40" 
+    height="40" 
     alt="BIME Icon" 
     src="https://github.com/user-attachments/assets/3d43a934-b565-46c8-8e1a-7401da9d7f50"
     style="vertical-align: middle; margin-left: 12px;"
